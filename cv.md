@@ -9,7 +9,7 @@
 ### I want to be Frontend Developer.
 
 ## Education :
-*    ### Belarusian-Russian University ,higher education ,(enginer) bachelor.
+*    ### Belarusian-Russian University, higher education, (enginer) bachelor.
 ## Skills : in process ...
 
 
@@ -19,4 +19,4 @@
 ## Languages :
 *   ### Russian - native speaker.
 *   ### Belarusian - native speaker.
-*   ### English    - A1 ( A2 in process... ).   
+*   ### English - A1 ( A2 in process... ).   
