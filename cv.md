@@ -17,6 +17,6 @@
 
 
 ## Languages :
-*   ### Russian    - native speaker.
+*   ### Russian - native speaker.
 *   ### Belarusian - native speaker.
 *   ### English    - A1 ( A2 in process... ).   
