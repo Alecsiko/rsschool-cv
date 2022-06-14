@@ -1,113 +1,134 @@
-    <!DOCTYPE html>
-    <html lang="en">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Silivonchik CV RSS</title>
-    <link rel="icon" href="assets\img\github-logo.svg">
+    <link rel="icon" href="assets/img/github-logo.svg">
     <link rel="stylesheet" href="style.css">
-    <img src="assets\img\image.jpg" alt="my photo" width="450px" height="450px">
-    
-    <body>
+</head>
+<body>
+    <header>
 
-        <header >
+        <img src="assets/img/image.jpg" alt="my photo" class="myphoto">
+        <h1>Aleksey Silivonchik</h1>
+        <h3>Future Frontend Developer</h3>
 
-            <h1>Aleksey Silivonchik</h1>
-            <h3>Future Frontend Developer</h3>
+    </header>
+    <hr>
 
-        </header>
+    <nav>
+        <a href="#ahtml">Contacts</a> <a href="#bhtml">Skills</a> |
+        <a href="#chtml">About me</a> | <a href="#dhtml">Education</a> |
+        <a href="#ihtml">Code example</a> | <a href="#fhtml">My project</a> |
+        <a href="#jhtml">Languages</a>
+    </nav>
+    <hr>
+
+    <main>
+        <div>
+            <h2 id="ahtml">Contacts:</h2>
+            <ul>
+                
+                <li>Location : Minsk, Belarus</li>
+                <li>Phone : +375(33)358-49-39</li>
+                <li>E-mail :<a href="alecsiko@gmail.com" target="_blank">alecsiko@gmail.com</a></li>
+                <li>GitHub : <a href="https://github.com/Alecsiko" target="_blank">alecsiko</a></li>
+
+            </ul>
+
+        </div>
         <hr>
-    
-        <main>
-            <div>
-                <ul>
-                    <h2>Contacts:</h2>
 
-                    <li>Location : Minsk, Belarus</li>
-                    <li>Phone : +375(33)358-49-39</li>
-                    <li>E-mail :<a href="alecsiko@gmail.com" target="_blank">alecsiko@gmail.com</a></li>
-                    <li>GitHub  : <a href="https://github.com/Alecsiko" target="_blank">alecsiko</a></li>
-                    
-                </ul>
-                            
-            </div>
-            <hr>
+        <div>
+            <h2 id="bhtml">Skills:</h2>
+            <ul>
+                
+                <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+                <li><a href="https://ru.code-basics.com/languages/html" target="_blank">HTML</a></li>
+                <li><a href="https://ru.code-basics.com/languages/css" target="_blank">CSS</a></li>
 
-            <div>
-                <ul>
-                    <h2>Skills :</h2>
+            </ul>
 
-                    <li><a href="https://github.com/" target="_blank" >GitHub</a></li>
-                    <li><a href="https://ru.code-basics.com/languages/html" target="_blank" >HTML</a></li>
-                    <li><a href="https://ru.code-basics.com/languages/css" target="_blank" >CSS</a></li>
-                    
-                </ul>
-            
-            </div>
-            <hr>
+        </div>
+        <hr>
 
-            <div>
+        <div>
 
-                <h2>About me:</h2>
-                <p>Young and promising guy.I want to be Frontend Developer.</p>
+            <h2 id="chtml">About me:</h2>
+            <p>Young and promising guy.I want to be Frontend Developer.</p>
 
-            </div>
-            <hr>
+        </div>
+        <hr>
 
-             <div>
-                <ul>
-                    <h2>Education :</h2>
+        <div>
+            <h2 id="dhtml">Education:</h2>
 
-                    <li>Belarusian-Russian University, higher education, (engineer) bachelor.</li>
-                    <li>Music school in city Tolochin</li>
-                    
-                </ul>
-            
-            </div>
-            <hr>
+            <ul>
+                
+                <li><a href="http://bru.by/" target="_blank">Belarusian-Russian University</a>, higher education,
+                    (engineer) bachelor.</li>
+                <li>Music school in city Tolochin</li>
 
-            <div>
-                <h2>About me:</h2>
-                <p>I want to be Frontend Developer.</p>
-            </div>
-            <hr>
+            </ul>
 
-            <div>
-                <h2>Code example :</h2>
-                <pre class="pre">
-                    <code>function multiply(a, b){
-                       return a * b
-                    }​
+        </div>
+        <hr>
+
+        <div>
+            <h2 id="ihtml">Code example:</h2>
+
+            <pre>
+                    <code id="code">n=5
+                        string="Hello World "
+                        print(string * n)  #Hello World Hello World Hello World Hello World Hello World
                     </code>
                 </pre>
-            </div>
-            <hr>
+        </div>
+        <hr>
 
-            <div>
-                <ul>
-                    <h2>Languages :</h2>
+        <div>
+            <h2 id="fhtml">My project:</h2>
 
-                    <li>Russian - native speaker.</li>
-                    <li>Belarusian - native speaker.</li>
-                    <li>English - A1 ( A2 in process… ).</li>
-                   
-                </ul>
-            
-            </div>
-            <hr>
-            
-        </main>
+            <ul>
 
-        <footer class="footer">
-            <div class="container footer">
-                <a href="https://github.com/Alecsiko" class="github autor">alecsiko</a>
-                <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school logo" class="rs-logo"></a>
-                <div>2022</div>
-            </div>
-        </footer>
-        
-        
-    </body>
- 
-    </html>      
+                <li><a href="https://alecsiko.github.io/rsschool-cv/cv" target="_blank">CV#1. Markdown & Git</a></li>
+                <li><a href="https://alecsiko.github.io/rsschool-cv/cv" target="_blank">CV#2. HTML, CSS & Git Basics</a></li>
+
+            </ul>
+
+        </div>
+        <hr>
+
+        <div>
+            <h2 id="jhtml">Languages:</h2>
+
+            <ul>
+                
+                <li>Russian - native speaker.</li>
+                <li>Belarusian - native speaker.</li>
+                <li>English - A1 ( A2 in process… ).</li>
+
+            </ul>
+
+        </div>
+        <hr>
+
+    </main>
+
+    <footer class="footer">
+
+        <div>
+            <a href="https://github.com/Alecsiko" class="githubautor">alecsiko</a>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs school logo" class="rslogo"></a>
+            <div>2022</div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
