@@ -1,0 +1,66 @@
+body {
+    margin:0 auto;
+    background-color: #f6efef;
+    color: #521d8a;
+    text-align: center;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+
+a {
+
+    color: rgb(78, 56, 56);
+    text-decoration: none;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+    color: rgb(81, 141, 46);
+    transition: color 0.5s;
+}
+
+h2{
+
+    color: rgb(39, 68, 68);
+
+}
+
+li {
+
+    list-style-type: none;
+
+}
+
+.example {
+
+    text-align: left;
+
+
+}
+
+.myphoto {
+
+    width: 350px;
+    border-radius: 50px;
+
+}
+
+.footer {
+
+    border-color: #23a723;
+    border-style:double;
+}
+
+.githubautor {
+    
+    margin: left 10px; ;
+    font-size: 25px;
+}
+
+.rslogo {
+
+    width: 100px;
+}
