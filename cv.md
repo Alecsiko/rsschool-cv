@@ -6,13 +6,13 @@
 *    ###  GitHub :  alecsiko 
 
 ## About me :
-### I want to be Frontend Developer.
+### I am an ambitious, purposeful and young guy who wants to see everyone and everything around him happy. I help others and sometimes I need help myself.I want to be Frontend Developer.Finished the RSschool research course. To be continued. More to come.
 
 ## Education :
 *    ### Belarusian-Russian University, higher education, (engineer) bachelor.
 *    ### JS/FE Pre-School.
 
-## Skills : HTML, CSS, JavaScript, Git.
+## Skills : HTML, CSS, JavaScript, Version control: Git (remote service GitHub)., VSCode, Windows OS, Figma(for web development).
 
 
 ## Code example : 
