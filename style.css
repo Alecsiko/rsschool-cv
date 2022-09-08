@@ -1,5 +1,60 @@
 body {
     max-width: 100vh;
     margin:0 auto;
+    background-color: #f6efef;
+    color: #131213;
+    text-align: center;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: linear-gradient(45deg, #8baaaa, #ae8b9c);
+}
+.header__info{
+    max-width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+a {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(81, 141, 46);
+    transition: color 0.5s;
+}
+h2{
+    color: rgb(56, 61, 42);
+}
+li {
+    list-style-type: none;
+}
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+.example {
+    text-align: left;
+}
+.myphoto {
+    width: 350px;
+    border-radius: 10px;
+}
+.footer {
+    border-color: #e3ebe3;
+    border-style:double;
+}
+.footer__img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.githubautor {
+    margin: left 10px; ;
+    font-size: 25px;
+}
+.rslogo {
+    width: 100px;
 }
