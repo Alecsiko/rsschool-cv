@@ -7,7 +7,6 @@ body {
     font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background: linear-gradient(45deg, #8baaaa, #ae8b9c);
-   
 }
 .header__info{
     max-width: 100vh;
@@ -43,7 +42,6 @@ li {
     width: 350px;
     border-radius: 10px;
 }
-
 .footer {
     border-color: #e3ebe3;
     border-style:double;
@@ -54,7 +52,6 @@ li {
     justify-content: space-between;
 }
 .githubautor {
-    
     margin: left 10px; ;
     font-size: 25px;
 }
